@@ -36,3 +36,77 @@
     transform: rotate(360deg);
   }
 }
+h1{
+  text-align: center;
+}
+.card{
+
+  height: 20rem;
+  width: 16rem;
+  border: 1px solid rgba(0,0,0,0.5);
+  border-radius: 10px;
+  box-shadow: 4px 4px 3px rgba(0,0,0,0.5);
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+.main{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+img{
+  display: block;
+  width: 95%;
+  margin: auto;
+  margin-top: 0.3rem;
+}
+
+button{
+  width: 7rem;
+  height: 1.9rem;
+  font-size: 1rem;
+  color: white;
+  border-radius: 5px;
+  background: rgb(21, 6, 151);
+  cursor: pointer;
+  margin: 0 1rem 0 1rem;
+}
+
+.btn{
+  width: 7rem;
+  height: 1.9rem;
+  font-size: 1rem;
+  color: white;
+  border-radius: 5px;
+  background: rgb(21, 6, 151);
+  cursor: pointer;
+  margin: 0.5rem;
+  position: absolute;
+  bottom: 0;
+}
+
+.text{
+  display: block;
+  margin: 1rem;
+}
+
+.meme{
+  width: 30%;
+  max-width: 100%;
+  margin: 1rem;
+  border: 1px solid rgba(0,0,0,0.5);
+  border-radius: 10px;
+  box-shadow: 4px 4px 3px rgba(0,0,0,0.5);
+}
+
+h4{
+  margin: 1rem;
+  font-size: 1.3rem;
+}
+
+h2{
+  margin: 0.5rem;
+  margin-top: 1rem;
+}
